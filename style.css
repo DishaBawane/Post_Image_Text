@@ -1,0 +1,127 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@100&display=swap');
+
+*,body,html {
+
+    margin:0;
+    padding:0;
+    font-family:'Montserrat' ;
+   
+}
+
+ .sec1-container{
+    height: 250px;
+    background: #2563EB;
+ }
+ .sec2-container{
+    margin: 1em;
+    color: #FFFFFF;
+ }
+
+ h2{
+    font-weight:900;
+    font-size: 26px;
+    line-height: 32px;
+    color: #FFFFFF;
+    text-align: center;
+    padding-bottom: 0.2em; 
+ }
+
+ .inputcontainer{
+    display: flex;
+    flex-direction: column;
+    background: chartreuse;
+    margin: 1em;
+    padding:1em;
+    /* align-items: ; */
+    justify-content: space-evenly;
+    height: 150px;
+    width: 505px;
+    background: #EDEDED;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    border-radius: 6px;
+    margin: auto;
+    
+ }
+
+ .image-text-conatiner{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    height: 385px;
+    width: 505px;
+    background:#EDEDED;
+    margin: auto;
+    padding:1em;
+    padding-right:1em;
+    border-radius: 6px;
+
+ }
+
+ /* .form-input{
+    display: flex;
+    flex-direction: column;
+    background: chartreuse;
+    margin: 1em;
+    padding:1em;
+    height:80%;
+    align-items: center;
+ } */
+
+ .usertext{
+    Width :500px;
+    Height :80px;
+    border-radius: 6px;
+    background: #FFFFFF;
+    border-style:none;
+    font-weight: 900;
+    color:black;
+ }
+
+ .userimgurl{
+    Width :500px;
+    Height :30px;
+    background: #FFFFFF;
+    border-radius: 6px;
+    margin-top: 0.5em;
+    border-style: none;
+ }
+
+ .postbtn{
+    width:135px ;
+    height: 35px;
+    background: #2563EB;
+    border-radius: 6px;
+    margin-top: 0.5em;
+    color:#FFFFFF ;
+    border-color:#2563EB ;
+    font-weight: 600;
+    font-size: 14px;
+    line-height: 17px;
+    margin-left:26em;
+   
+ }
+
+.image{
+    width: 505px;
+    height: 273px;
+    border-radius: 6px;
+    margin:auto;
+    /* background: #000000; */
+}
+
+.text{
+    width: 515px;
+    height: 95px;
+ 
+    margin:auto;
+    margin-top: 1em;
+    /* background: red; */
+}
+.userinput{
+    border-radius: 6px;
+    border-style: none;
+    width: 505px;
+    height: 95px;
+    font-weight: 900;
+    color: #000000;
+}
