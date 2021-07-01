@@ -12,6 +12,15 @@
     height: 250px;
     background: #2563EB;
  }
+/* 
+  .card{
+    height: 250px;
+    background: #2563EB;
+ }  */
+
+
+ 
+
  .sec2-container{
     margin: 1em;
     color: #FFFFFF;
@@ -29,7 +38,6 @@
  .inputcontainer{
     display: flex;
     flex-direction: column;
-    background: chartreuse;
     margin: 1em;
     padding:1em;
     /* align-items: ; */
@@ -43,7 +51,7 @@
     
  }
 
- .image-text-conatiner{
+ .card{
     display: flex;
     flex-direction: column;
     align-items: center;
